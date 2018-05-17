@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<title>dbms_proj</title>
+<link rel="stylesheet" href="css/materialize.css">
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript"src="js/materialize.min.1.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+form{
+padding-left:10%;
+padding-right:10%;
+}
+</style>
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper black">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="MainPage.html">Leaves</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+<form id="form_leaves" action="dbmsproj2.php" method="POST">
+EL: 
+<input type="number" id="el" name="el"><br><br>
+ML: 
+<input type="number" id="ml" name="ml"><br><br>
+CL:
+<input type="number" id="cl" name="cl"><br><br>
+
+Emp-id:
+<input type="number" id="emp_id" name="emp_id"><br><br>
+
+
+<button id="btn-login" type="submit" name="submit">Submit
+</form>
+</body>
+</html>

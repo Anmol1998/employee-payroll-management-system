@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<title>dbms_proj</title>
+<link rel="stylesheet" href="css/materialize.css">
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript"src="js/materialize.min.1.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+form{
+padding-left:10%;
+padding-right:10%;
+}
+</style>
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper black">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="MainPage.html">Salary</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+<form id="form_salary" action="dbmsproj3.php" method="POST">
+Basic Pay: 
+<input type="number" id="bp" name="bp"><br><br>
+DA: 
+<input type="number" id="da" name="da"><br><br>
+HRA:
+<input type="number" id="hra" name="hra"><br><br>
+medical_allowance:
+<input type="number" id="medical_allowance" name="medical_allowance"><br><br>
+welfare_fund:
+<input type="number" id="welfare_fund" name="welfare_fund"><br><br>
+security:
+<input type="number" id="security" name="security"><br><br>
+misc_charges:
+<input type="number" id="misc_charges" name="misc_charges"><br><br>
+emp_id:
+<input type="number" id="emp_id" name="emp_id"><br><br>
+
+<button id="btn-login" type="submit" name="submit">Submit
+</form>
+</body>
+</html>

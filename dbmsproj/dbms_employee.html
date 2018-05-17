@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<title>dbms_proj</title>
+<link rel="stylesheet" href="css/materialize.css">
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript"src="js/materialize.min.1.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+form{
+padding-left:10%;
+padding-right:10%;
+}
+</style>
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper black">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="MainPage.html">Employee</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+<form id="form_employee" action="dbmsproj.php" method="POST">
+First Name: 
+<input type="text" id="fname" name="fname"><br><br>
+Mid-Name: 
+<input type="text" id="mname" name="mname"><br><br>
+Last-Name:
+<input type="text" id="lname" name="lname"><br><br>
+Sex:
+<input type="text" id="sex" name="sex"><br><br>
+Emp_id:
+<input type="text" id="empid" name="empid"><br><br>
+Phone:
+<input type="number" id="phone" name="phone"><br><br>
+dob:
+<input type="date" id="dob" name="dob"><br><br>
+doj:
+<input type="date" id="doj" name="doj"><br><br>
+address:
+<input type="text" id="address" name="address"><br><br>
+Post:
+<input type="text" id="post" name="post"><br><br>
+email-id:
+<input type="text" id="email" name="email"><br><br>
+department-no:
+<input type="text" id="dept_no" name="dept_no"><br><br>
+supervisor-id:
+<input type="text" id="sup_no" name="sup_no"><br><br>
+
+<button id="btn-login" type="submit" name="submit">Submit
+</form>
+</body>
+</html>
